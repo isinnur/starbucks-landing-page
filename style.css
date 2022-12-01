@@ -183,6 +183,34 @@ header ul li a{
           filter: invert(1);
       }
 
+      .toggle.active{
+        background: url(images/close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+      }
+
+      header ul.navigation.active{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        z-index: 10;
+      }
+
+      header ul li a{
+          font-size: 1.5rem;
+          margin: 5px 0;
+         
+      }
+
       section{
           padding: 20px 20px 120px;
       }

@@ -157,3 +157,72 @@ header ul li a{
 }
 
 /*responsive*/
+
+@media(max-width:991px){
+      header{
+          padding: 20px;
+      }
+
+      header.logo{
+         
+          max-width: 60px;
+      }
+
+      header ul{
+          display: none;
+      }
+      .toggle{
+          position: relative;
+          width: 30px;
+          height: 30px;
+          cursor: pointer ;
+          background: url(images/menu.png);
+          background-size: 30px;
+          background-position: center;
+          background-repeat: no-repeat;
+          filter: invert(1);
+      }
+
+      section{
+          padding: 20px 20px 120px;
+      }
+
+      .content{
+          flex-direction: column;
+          margin-top: 100px;
+      }
+
+      .content .imgBox{
+          max-width: 100%;
+          justify-content: center;
+      }
+
+      .content .imgBox img{
+          max-width: 300px;
+      }
+
+      .content .textBox{
+          max-width: 100px;
+      }
+
+      .content .textBox h2{
+          font-size: 2.5rem;
+          margin-bottom: 15px;
+      }
+
+      .circle{
+          clip-path: circle(400px at center bottom);
+      }
+
+      .thumb li img{
+          max-width: 40px;
+      }
+
+      .sci{
+          background-color: #017143;
+          right: 0;
+          width: 50px;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+      }
+}
